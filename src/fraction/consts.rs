@@ -70,9 +70,9 @@ impl Consts for GenericFraction<u16> { // MaxValue = 65,535
 impl Consts for GenericFraction<u32> {// 4_294_967_295
     const E: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(848_456_353, 312_129_649));
     const FRAC_2_PI: Self = Self::TAU;
-    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 364913));
+    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 364913));
     const FRAC_PI_4: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(11_146_408, 364913));
-    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 1094739));
+    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 1094739));
     const FRAC_PI_8: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(1393301, 364913));
     const PI: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(22292816, 364913));
     const SQRT_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(1_855_077_841, 1_311_738_121));
@@ -81,9 +81,9 @@ impl Consts for GenericFraction<u32> {// 4_294_967_295
 impl Consts for GenericFraction<i32> {// 2_147_483_647
     const E: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(848_456_353, 312_129_649));
     const FRAC_2_PI: Self = Self::TAU;
-    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 364913));
-    const FRAC_PI_4: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(2786602, 364913));
-    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 1094739));
+    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 364913));
+    const FRAC_PI_4: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(286602, 364913));
+    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 1094739));
     const FRAC_PI_8: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(1393301, 364913));
     const PI: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(11_146_408, 364_913));
     const SQRT_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(1_855_077_841, 1_311_738_121));
@@ -93,9 +93,9 @@ impl Consts for GenericFraction<i32> {// 2_147_483_647
 impl Consts for GenericFraction<u64> {// 18_446_744_073_709_551_615
     const E: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5_739_439_214_861_417_731_u64, 2_111_421_691_000_680_031_u64));
     const FRAC_2_PI: Self = Self::TAU;
-    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 364913));
-    const FRAC_PI_4: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(2786602, 364913));
-    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 1094739));
+    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 364913));
+    const FRAC_PI_4: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(286602, 364913));
+    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 1094739));
     const FRAC_PI_8: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(1393301, 364913));
     const PI: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(11_146_408, 364913));
     const SQRT_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(367_296_043_199, 259_717_522_849));
@@ -104,9 +104,9 @@ impl Consts for GenericFraction<u64> {// 18_446_744_073_709_551_615
 impl Consts for GenericFraction<i64> {//  9_223_372_036_854_775_807
     const E: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5_739_439_214_861_417_731_i64, 2_111_421_691_000_680_031_i64));
     const FRAC_2_PI: Self = Self::TAU;
-    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 364913));
-    const FRAC_PI_4: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(2786602, 364913));
-    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 1094739));
+    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 364913));
+    const FRAC_PI_4: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(286602, 364913));
+    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 1094739));
     const FRAC_PI_8: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(1393301, 364913));
     const PI: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(11_146_408, 364913));
     const SQRT_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(367_296_043_199, 259_717_522_849));
@@ -116,9 +116,9 @@ impl Consts for GenericFraction<i64> {//  9_223_372_036_854_775_807
 impl Consts for GenericFraction<usize> {//18_446_744_073_709_551_615
     const E: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5_739_439_214_861_417_731_usize, 2_111_421_691_000_680_031_usize));
     const FRAC_2_PI: Self = Self::TAU;
-    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 364913));
-    const FRAC_PI_4: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(2786602, 364913));
-    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(5573204, 1094739));
+    const FRAC_PI_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 364913));
+    const FRAC_PI_4: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(286602, 364913));
+    const FRAC_PI_6: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(573204, 1094739));
     const FRAC_PI_8: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(1393301, 364913));
     const PI: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(11_146_408, 364913));
     const SQRT_2: Self = GenericFraction::Rational(crate::Sign::Plus, Ratio::new_raw(367_296_043_199_usize, 259_717_522_849_usize));
