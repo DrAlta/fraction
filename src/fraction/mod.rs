@@ -1,8 +1,10 @@
 pub use self::generic_fraction::GenericFraction;
 pub use self::sign::Sign;
 
-#[cfg(feature = "with-approx")]
+//#[cfg(feature = "with-approx")]
 pub mod approx;
+
+pub mod consts;
 
 pub mod display;
 

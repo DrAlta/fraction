@@ -238,6 +238,31 @@ where
         Self::_new(Sign::Plus, num, den)
     }
 
+    /// The above new has problens with passing interger literals to it for example
+    /// `fraction::GenericFraction::<u64>::new(2, 1)`
+    /// will give
+    /// error[E0277]: the trait bound `u64: From<i32>` is not satisfied
+    ///    --> src/main.rs:18:64
+    ///     |
+    /// 18  |     println!("PI {:#?}", fraction::GenericFraction::<u64>::new(1, 31));
+    ///     |                          ------------------------------------- ^ the trait `From<i32>` is not implemented for `u64`
+    ///     |                          |
+    ///     |                          required by a bound introduced by this call
+    ///     |
+    ///     = help: the following other types implement trait `From<T>`:
+    ///               <u64 as From<bool>>
+    ///               <u64 as From<char>>
+    ///               <u64 as From<u8>>
+    ///               <u64 as From<u16>>
+    ///               <u64 as From<u32>>
+    ///               <u64 as From<NonZeroU64>>
+    ///     = note: required for `i32` to implement `Into<u64>`
+    /// 
+    pub fn newt(num: T, den: T) -> GenericFraction<T>
+    {
+        Self::_new(Sign::Plus, num, den)
+    }
+
     /// Constructs a new negative fraction with the specified numerator and denominator
     ///
     /// The arguments must be either of `T` type, or implement `Into<T>` trait.
