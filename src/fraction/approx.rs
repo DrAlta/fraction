@@ -10,7 +10,9 @@
 use crate::{generic::GenericInteger, BigFraction, GenericFraction};
 use num::{rational::Ratio, traits::Pow, BigUint, Integer};
 
+pub mod atan2;
 pub mod sqrt;
+
 
 /// Levels of accuracy for an approximation.
 #[derive(Clone, Debug)]
